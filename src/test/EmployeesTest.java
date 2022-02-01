@@ -1,10 +1,12 @@
 package test;
 
 import domain.*;
-
+/**
+ * Клас для тестування роботи інших класів
+ */
 public class EmployeesTest {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         String[] skills = {"Microsoft Word", "TeX", "OpenOffice", "Markdown"};
         Editor ed = new Editor(true, skills, "Phil Coulson", "Chief Editor", 3, "Publishing");
